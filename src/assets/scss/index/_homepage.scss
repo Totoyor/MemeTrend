@@ -1,0 +1,26 @@
+$facebook-color: #0084FF;
+
+.button-facebook {
+  background-color: $facebook-color;
+  font-family: $header-font-family;
+}
+
+.bg-top {
+	background-image: url("../img/grand-place.jpg");
+	height: 660px;
+	margin-bottom: 0px;
+}
+
+.bg-bloc-button {
+	height : 400px;
+	background-color: white;
+}
+
+.logo {
+	height: 40px;
+}
+
+footer {
+	background-color: #262626;
+	height: 56px;
+}
