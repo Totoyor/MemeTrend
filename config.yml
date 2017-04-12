@@ -60,3 +60,5 @@ PATHS:
     # Paths to your own project code are here
     - "src/assets/js/!(app).js"
     - "src/assets/js/app.js"
+    # Additionnals JS Library
+    - "bower_components/headroom.js/dist/headroom.min.js"
