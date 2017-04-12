@@ -1,0 +1,40 @@
+/* https://www.mapado.com/lille/ : trouver des événements */
+
+
+[
+  {
+    "name": "Alapha Wann, Ocean Wisdom et Dirty Dike",
+    "location": "Aéronef",
+    "start": "15 avril 2017 à 20h"
+  },
+  {
+    "name": "Holiday on ice",
+    "location": "Zénith de Lille",
+    "start": "du 14 au 16 avril 2017"
+  },
+  {
+    "name": "Arno Tomaso",
+    "location": "Workshop",
+    "start": "15 avril 2017 à 6h30"
+  },
+  {
+    "name": "WTMF invite : Demuja",
+    "location": "Gare Saint Sauveur",
+    "start": "15 avril 2017 à 19h"
+  },
+  {
+    "name": "Organ Dealer @ BAR LIVE in Roubaix",
+    "location": "Roubaix",
+    "start": "15 avril 2017 à 19h"
+  },
+  {
+    "name": "Soundlux Warehouse Festival night 2",
+    "location": "Carrosserie Lavoisier",
+    "start": "15 avril de 20h à 6h"
+  }
+]
+
+
+
+
+
