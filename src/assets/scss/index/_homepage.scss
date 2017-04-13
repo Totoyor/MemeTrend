@@ -9,6 +9,8 @@ $facebook-color: #0084FF;
 	background-image: url("../img/grand-place.jpg");
 	height: 660px;
 	margin-bottom: 0px;
+	color: white;
+	border-top: 1px solid #696969;
 }
 
 .bg-bloc-button {
@@ -23,4 +25,15 @@ $facebook-color: #0084FF;
 footer {
 	background-color: #262626;
 	height: 56px;
+	line-height: 56px;
+}
+
+.top-bar {
+	background-color: white;
+	ul.menu {
+		background-color: white;
+	}
+	.menu-text {
+		color: black;
+	}
 }
