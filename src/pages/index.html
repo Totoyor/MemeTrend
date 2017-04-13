@@ -25,25 +25,25 @@
     <!-- formulaire de contact modal -->
     <div class="reveal" id="exampleModal1" data-reveal>
       <h2 class="h2">Envoyez nous un message</h2>
-      <form>
+      <form action="https://formspree.io/vanweldenthomas@live.fr" method="POST">
         <div class="row">
           <div class="large-12 columns">
             <label>Nom</label>
-            <input type="text" placeholder="Nom" id="name" required data-validation-required-message="Entrez votre nom.">
+            <input type="text" placeholder="Nom" id="nom" required data-validation-required-message="Entrez votre nom." name="Nom">
             <p></p>
           </div>
         </div>
         <div class="row">
           <div class="large-12 columns">
             <label for="email">Addresse mail</label>
-            <input type="email" placeholder="Addresse Mail" id="email" required data-validation-required-message="Entrez votre adresse mail.">
+            <input type="email" placeholder="Addresse Mail" id="email" required data-validation-required-message="Entrez votre adresse mail." name="Email">
             <p></p>
           </div>
         </div>
         <div class="row">
           <div class=" large-12 columns">
             <label for="message">Message</label>
-            <textarea rows="5" placeholder="Message" id="message" required data-validation-required-message="Ecrivez votre message."></textarea>
+            <textarea rows="5" placeholder="Message" id="message" required data-validation-required-message="Ecrivez votre message." name="Message"></textarea>
             <p></p>
           </div>
         </div>
