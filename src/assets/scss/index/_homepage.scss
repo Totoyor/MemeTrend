@@ -22,12 +22,6 @@ $facebook-color: #0084FF;
 	height: 40px;
 }
 
-footer {
-	background-color: #262626;
-	height: 56px;
-	line-height: 56px;
-}
-
 .top-bar {
 	background-color: white;
 	ul.menu {
@@ -35,5 +29,16 @@ footer {
 	}
 	.menu-text {
 		color: black;
+		font-family: 'Concert One', cursive;
+		font-size: 28px;
 	}
+}
+
+footer {
+	background-color: #262626;
+	height: 56px;
+	line-height: 56px;
+}
+h1 {
+	font-family: 'Concert One', cursive;
 }
