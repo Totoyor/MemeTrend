@@ -6,10 +6,24 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LillEvent - The place to be.</title>
+    <meta name="description" content="Vous recherchez un événement lillois proche de chez vous ? Nous sommes la pour vous proposer les meilleurs événements de la communauté lilloise.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="LillEvent - The place to be.">
+    <meta property="og:site_name" content="LillEvent">
+    <meta property="og:url" content="https://totoyor.github.io/Test-Foundation/">
+    <meta property="og:image" content="">
+    <meta property="article:author" content="https://github.com/Totoyor">
     <link rel="stylesheet" href="assets/css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
     <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
   </head>
   <body>
 
@@ -22,6 +36,7 @@
           </div>
           <div class="top-bar-right">
             <ul class="menu">
+              <li><a data-open="exampleModal1">Contact</a></li>
               <li><a href="https://m.me/LilleEvent" class="button button-facebook" target="_blank"><i class="fa fa-weixin" aria-hidden="true"></i> Rechercher un événement</a></li>
             </ul>
           </div>
@@ -34,6 +49,43 @@
             <p class="lead">Tu recherches un événement lillois pour étudiant ? Nous avons ce qu'il te faut ;)</p>
             <a href="https://m.me/LilleEvent" class="button button-facebook" target="_blank"><i class="fa fa-weixin" aria-hidden="true"></i> Rechercher un événement</a>
           </div>
+        </div>
+    
+        <!-- formulaire de contact modal -->
+        <div class="reveal" id="exampleModal1" data-reveal>
+          <h2 class="h2">Envoyez nous un message</h2>
+          <form action="https://formspree.io/vanweldenthomas@live.fr" method="POST">
+            <div class="row">
+              <div class="large-12 columns">
+                <label>Nom</label>
+                <input type="text" placeholder="Nom" id="nom" required data-validation-required-message="Entrez votre nom." name="Nom">
+                <p></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="large-12 columns">
+                <label for="email">Addresse mail</label>
+                <input type="email" placeholder="Addresse Mail" id="email" required data-validation-required-message="Entrez votre adresse mail." name="Email">
+                <p></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class=" large-12 columns">
+                <label for="message">Message</label>
+                <textarea rows="5" placeholder="Message" id="message" required data-validation-required-message="Ecrivez votre message." name="Message"></textarea>
+                <p></p>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="large-2 columns">
+                <button type="submit" class="button">Envoyer</button>
+              </div>
+            </div>
+          </form>
+          <button class="close-button" data-close aria-label="Close modal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
     
         <footer>
