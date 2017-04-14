@@ -1,0 +1,25 @@
+{
+  "messages": [
+    {
+      "attachment": {
+        "type": "soirée",
+        "payload": {
+          "template_type": "button",
+          "text": "Salut!",
+          "buttons": [
+            {
+              "type": "show_block",
+              "block_name": "soirée",
+              "title": "Trouve ta soirée!"
+            },
+            {
+              "type": "web_url",
+              "url": "https://www.facebook.com/events/1411740018890282/",
+              "title": "Amelie Lens & Eugène Korso"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
